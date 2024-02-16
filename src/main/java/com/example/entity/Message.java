@@ -18,7 +18,7 @@ public class Message {
     private Integer message_id;
     /**
      * The id for the user who has posted this message. We will assume that this is provided by the front-end of this
-     * application.
+     * application. 
      */
     @Column (name="posted_by")
     private Integer posted_by;
